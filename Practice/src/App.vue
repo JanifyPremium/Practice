@@ -32,11 +32,6 @@ nav a {
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
 }
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
 
 
 .routerView {
