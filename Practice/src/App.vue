@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="routerView">
       
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -31,13 +31,13 @@ nav a.router-link-exact-active:hover {
 }
 
 nav a {
-  display: inline-block;
+  position: fixed;
+  left: 0%;
+  top: 0%;
   padding: 0 1rem;
+  display: flexbox;
   border-left: 1px solid var(--color-border);
-}
-
-
-.routerView {
-    margin-top: 90px;
+  margin-top: 10px;
+  
 }
 </style>
