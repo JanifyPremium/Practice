@@ -10,7 +10,7 @@ let Endgehalt3 = Fixum+ Provision3;
 if (document.getElementById(Umsatz) <= 100000 ) {
     console.log(Endgehalt1);
 }
-else if (Umsatz <= 500000) {
+else if (Umsatz <= 500000 && Umsatz > 100000) {
     console.log(Endgehalt2);
 }
 else {
