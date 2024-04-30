@@ -3,6 +3,6 @@ let ND = 5;
 let AfA = Betrag/ND;
 
 while (Betrag > 0) {
-    let Betrag = Betrag - AfA ;
+    Betrag = Betrag - AfA ;
     console.log(Betrag);
 };
