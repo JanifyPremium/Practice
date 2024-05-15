@@ -1,6 +1,6 @@
 # Practice
 
-This template should help get you started developing with Vue 3 in Vite.
+This are summerized practices that I've done while learning js html css and vue.
 
 ## Recommended IDE Setup
 
