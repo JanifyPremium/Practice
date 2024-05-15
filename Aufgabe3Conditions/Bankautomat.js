@@ -2,19 +2,20 @@ const No1 = 100 ;
 const No2 = 200 ;
 const No3 = 500 ;
 let No4 = 10;
+let input = No1 ;
 
-if ( No1 === true ){
-    console.log("100€ werden ausbezahlt!")
+if ( input === No1 ){
+    console.log( No1 +" € werden ausbezahlt!")
 }
 
-else if ( No2 === true ){
-    console.log("200€ werden ausbezahlt!")
+else if ( input === No2 ){
+    console.log(No2 + " € werden ausbezahlt!")
 }
 
-else if ( No3 === true ){
-    console.log("500€ werden ausbezahlt!")
+else if ( input === No3 ){
+    console.log(No3 + " € werden ausbezahlt!")
 }
 
 else {
-    console.log(No4 + "€ werden ausbezahlt!")
+    console.log(No4 + " € werden ausbezahlt!")
 };
