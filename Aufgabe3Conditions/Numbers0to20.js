@@ -1,6 +1,6 @@
 let i = 0; 
 
-while (i < 20){
-       i++
+while (i <= 20){
        console.log(i);
+       i++
 };

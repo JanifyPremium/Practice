@@ -1,12 +1,25 @@
-var Freunde =["Lynn", "Xenia", "Eva", "Hannah", "Rebecca" ] ;
+var arrFreunde =["Lynn", 
+            "Xenia",
+            "Eva", 
+            "Hannah",
+            "Rebecca" 
+        ] ;
 
-function friend(Freunde) {
-    return(Freunde);
-    console.log(Freunde);
+var toRemove ;
+var toAdd ;
+
+function friend(arrFreunde) {
+    return(arrFreunde);
+    console.log(arrFreunde);
 };
 
-function removeFriend (Freunde) {
-    var remover = Freunde.splice(1, 2);
-   // return(removeFriend);
+function removeFriend (arrFreunde) {
+    var remover = arrFreunde.splice(1, 2);
+    return(removeFriend);
     console.log(removeFriend);
 }; 
+
+function addFriend (arrFreunde, toAdd) {
+    arrFreunde.push("Meryeme");
+    return(arrFreunde);
+};
