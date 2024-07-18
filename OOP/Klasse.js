@@ -1,7 +1,6 @@
 class Klassenzimmer{
-    constructor(anzahlPlätze, sitzplätze, schüler){
+    constructor(anzahlPlätze, nummer){
         this.anzahlPlätze;
-        this.sitzplätze;
-        this.schüler;
+        this.nummer;
     };
 };
