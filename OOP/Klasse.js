@@ -4,3 +4,7 @@ class Klassenzimmer{
         this.nummer;
     };
 };
+
+class Seminarraum extends Klassenzimmer{
+    
+}
